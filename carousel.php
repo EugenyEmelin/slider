@@ -23,7 +23,7 @@
   			<ol class="carousel-indicators">
    				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
    				<?php
-  				for ($i = 2; $i < $c; $i++) {
+  				for ($i = 1; $i < $c; $i++) {
   				?>
   					<li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $i ?>"></li>
   				<?php
@@ -33,18 +33,40 @@
    				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
  			</ol>
   			<div class="carousel-inner">
-  		
-  			  <div class="carousel-item active">
-  			    <img class="img-fluid" src="img/1.jpg">
-  			  </div>
-  			  <div class="carousel-item">
-  			    <img class="img-fluid" src="img/2.jpg">
-  			  </div>
-  			  <div class="carousel-item">
-  			    <img class="img-fluid" src="img/3.jpg">
-  			  </div>
-  			   <div class="carousel-item">
-  			    <img class="img-fluid" src="img/4.jpg">
+  				<div class="carousel-item active">
+  			    	<img class="d-block w-100 slider-img" src="img/0.jpg">
+  			    	<div class="carousel-caption d-none d-md-block">
+   					<h5>Заголовок</h5>
+    				<p>Описание</p>
+ 				 </div>
+  			  	</div>
+  			  	<div class="carousel-item">
+  			    	<img class="d-block w-100 slider-img" src="img/1.jpg">
+  			    <div class="carousel-caption d-none d-md-block">
+   					<h5>Заголовок</h5>
+    				<p>Описание</p>
+ 				 </div>
+  			 	 </div>
+  			 	<div class="carousel-item">
+  			    	<img class="d-block w-100 slider-img" src="img/2.jpg">
+  			    <div class="carousel-caption d-none d-md-block">
+   					<h5>Заголовок</h5>
+    				<p>Описание</p>
+ 				 </div>
+  			 	 </div>
+  			 	 <div class="carousel-item slider-img">
+  			    	<img class="d-block w-100" src="img/3.jpg">
+  			    <div class="carousel-caption d-none d-md-block">
+   					<h5>Заголовок</h5>
+    				<p>Описание</p>
+ 				</div>
+  			  	</div>
+  			   	<div class="carousel-item">
+  			    	<img class="d-block w-100 slider-img" src="img/4.jpg">
+  			    <div class="carousel-caption d-none d-md-block">
+   					<h5>Заголовок</h5>
+    				<p>Описание</p>
+ 				</div>
   			  </div>
   			</div>
   			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
