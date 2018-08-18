@@ -1,0 +1,14 @@
+.slider-block {
+	margin: 0 auto;
+	width: 70vw;
+	height: 50vw;
+	overflow: hidden;
+}
+#carouselExampleIndicators {
+	width: auto;
+	height: 50%;
+	overflow: hidden;
+}
+.carousel-inner {
+	height: 50vw;
+}
